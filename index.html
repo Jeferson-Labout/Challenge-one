@@ -6,13 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criptografar</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 <body>
     <main>
         <div class="container_main">
-
+            <div class="row">
+                <div class="col_criptografar">
+                    <div class="logo">
+                        <img src="./assets/img/logo.svg" alt="logo">
+                    </div>
+                    <section class="criptografar">
+                        <div class="text_input">
+                            <textarea name="text_criptografar" id="text_criptografar" placeholder="Digite seu texto"></textarea>
+                        </div>
+                        <div class="footer_criptografar">
+                            <p><i class="fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento.</p>
+                            <div class="buttons_criptografar">
+                                <button id="btn_criptografar" class="btn_blue">Criptografar</button>
+                                <button id="btn_descriptografar" class="btn_dark">Descriptografar</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="_resultado_coluna">
+                    <div class="_resultado">
+                        <div class="_resultado_img ">
+                            <img src="./assets/img/clipArt.svg" alt="clipArt">
+                            <strong>Nenhuma mensagem encontrada</strong>
+                            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                        </div>
+                        <div class="_resultado_item">
+                            <div class="_resultado_item_texto">
+                                <p id="_resultado_item_label"></p>
+                            </div>
+                            <div class="button-copiar">
+                                <button id="btn-copiar">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
