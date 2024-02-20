@@ -163,6 +163,7 @@
     font-size: 1.5em;
     color: #495057;
     padding-bottom: 32px;
+    word-wrap: break-word;
  }
  
  ._resultado_item .button-copiar button {
